@@ -47,6 +47,196 @@
   padding: 0;
 }
 
-ul, ol {
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
   list-style: none;
+}
+
+body {
+  font-family: 'Roboto';
+  color: var(--color-primary-darkBlue);
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+}
+
+.accent-color {
+  color: var(--color-primary-blue);
+}
+
+/* Header styles */
+
+.header-container {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+.header-menu,
+.header-link {
+  color: var(--color-primary-darkBlue);
+  font-weight: 400;
+}
+
+.header-link:hover {
+  font-weight: 700;
+  color: var(--color-primary-blue);
+}
+
+.header-link:active {
+  color: var(--color-primary-blue);
+}
+
+/* Hero section styles*/
+
+.hero-title {
+  font-size: 140px;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.call-button {
+  color: var(--color-primary-white);
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color-primary-blue);
+}
+
+.hero-text {
+  color: var(--color-secondary-darkGrey);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* About company section */
+
+.about-title > span {
+  text-transform: capitalize;
+}
+
+.about-text-first,
+.about-text-second {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+/* Usp section */
+.company-usp-section {
+  background-image: url(../images/usp-background.png);
+}
+
+.usp-item-image {
+  width: 48px;
+  height: 48px;
+}
+
+.usp-item-text {
+  color: black;
+}
+
+/* Procedures section */
+
+.slider-item {
+  background: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 47%,
+    rgba(1, 28, 68, 0.73) 83%,
+    #011c44 99%
+  );
+  color: var(--color-primary-white);
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.slider-nav-elipse:hover {
+  cursor: pointer;
+}
+
+/* Location section */
+
+.location-form {
+  background-color: var(--color-primary-darkBlue);
+}
+
+.form-title {
+  color: var(--color-primary-white);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.location-form > input,
+input::placeholder {
+  background: transparent;
+  color: var(--color-primary-white);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.location-form > button {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  font-weight: 600;
+}
+
+.form-confident {
+  color: var(--color-secondary-lightGrey);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.form-confident > a {
+  text-decoration: underline;
+  color: var(--color-secondary-lightGrey);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--color-primary-darkBlue);
+  color: var(--color-primary-white);
+  font-size: 16px;
+}
+
+.footer-link, .contact-item>a {
+  color: var(--color-primary-white);
+  font-weight: 400;
+}
+
+.footer-link:hover, .contact-item>a:hover {
+  font-weight: 700;
+  color: var(--color-primary-blue);
+}
+
+.footer-link:active, .contact-item>a:active {
+  color: var(--color-primary-white);
+}
+
+.footer-social-item>img {
+  width: 42px;
+  height: 42px;
+}
+
+.rules {
+  color: var(--color-primary-white);
+  font-size: 16px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: var(--color-secondary-lightGrey);
 }
